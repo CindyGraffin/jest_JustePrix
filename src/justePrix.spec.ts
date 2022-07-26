@@ -40,7 +40,7 @@ describe('Classe JustePrix', () => {
         })
     })
     describe('lifes in class', () => {
-        describe('Retirer une vie lorsque la réponse est fausse', () => {
+        describe('Gérer le nombre de vies', () => {
             test('Retire une vie si le nombre est inférieur au résultat', () => {
                 const lifes = testJustePrix.lifes
                 testJustePrix.compareNumbers(3, 5);
